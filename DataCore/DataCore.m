@@ -10,4 +10,8 @@
 
 @implementation DataCore
 
+- (NSString *)getName {
+    return @"The String";
+}
+
 @end

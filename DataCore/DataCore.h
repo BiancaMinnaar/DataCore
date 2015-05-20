@@ -10,4 +10,6 @@
 
 @interface DataCore : NSObject
 
+- (NSString *)getName;
+
 @end
