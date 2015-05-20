@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/SenseiBrian/DataCore.git',
         :tag => s.version.to_s
     }
-    s.source_files      = 'DataCore/*.{m,h}'
+    s.source_files      = '*.*'
     s.requires_arc      = true
 
 end
